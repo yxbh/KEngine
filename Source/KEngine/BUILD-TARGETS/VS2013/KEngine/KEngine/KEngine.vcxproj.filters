@@ -1,0 +1,440 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Engine">
+      <UniqueIdentifier>{5846224f-8a35-4eb4-9665-5ee0cba500a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Multitask">
+      <UniqueIdentifier>{67ed243d-966f-4f89-8c30-833b2b8d6fd0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Utility">
+      <UniqueIdentifier>{aa43f878-c9da-4286-bb4f-8b158d0ab270}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine">
+      <UniqueIdentifier>{07c0df50-9019-4c76-87ff-ffaa3af292d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\Utility">
+      <UniqueIdentifier>{f605d66a-688a-4b84-816d-73cadbc07465}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\Multitask">
+      <UniqueIdentifier>{00c7540f-9d47-497d-ba93-480746be1983}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\Event">
+      <UniqueIdentifier>{0d2e9dd9-7eef-4b5d-8101-5f5c4937f9b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Event">
+      <UniqueIdentifier>{dce1c032-da81-4bdc-bd24-1f1b28e44f12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\Entity">
+      <UniqueIdentifier>{9ae21ef4-4c71-4341-bcd5-421e8da7f071}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Entity">
+      <UniqueIdentifier>{68775a62-3b6c-414d-a61f-33e1d14d99a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\Dev">
+      <UniqueIdentifier>{c27b3677-39d0-469f-ac6a-64b96b104882}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Dev">
+      <UniqueIdentifier>{f1edec12-5f37-41f4-8455-53d94310ad0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\App">
+      <UniqueIdentifier>{bf4e10f9-2393-4dac-aa0e-371198df5954}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\App">
+      <UniqueIdentifier>{a5ecaac7-b11f-4a9f-b6e3-76d1e590e031}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\Input">
+      <UniqueIdentifier>{5ef01171-c6ce-44fb-a490-e8c502b4b7b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\Graphics">
+      <UniqueIdentifier>{7373f241-be59-4c87-8105-11810521ad76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\Graphics\2D">
+      <UniqueIdentifier>{00d5d1cd-da03-48a9-9f9e-38b022f043bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\Graphics\3D">
+      <UniqueIdentifier>{011d8b5f-1347-4cd4-b34e-3afb80d9d776}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Graphics">
+      <UniqueIdentifier>{b690bfba-a2e4-48a8-9cdf-76b76bbeaac3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Graphics\2D">
+      <UniqueIdentifier>{8f788efa-a7a9-472e-990b-21dbd2f9de49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Graphics\3D">
+      <UniqueIdentifier>{467a2c67-9614-48e2-bbda-f78a635572ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\Graphics\Renderer">
+      <UniqueIdentifier>{c34f9c4c-1fc1-4f6c-bf6a-1ccb041c6aa6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Graphics\Renderer">
+      <UniqueIdentifier>{2b63c0e9-dce9-433c-bd46-9c98def342af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\Physics">
+      <UniqueIdentifier>{6cfd6dba-cfe7-4390-be5c-82662f292750}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\Input\Keyboard">
+      <UniqueIdentifier>{c5f16af9-1f5a-466c-a9e4-954e67ffb915}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Input">
+      <UniqueIdentifier>{eb66167c-ac52-4569-a92b-5a6b604c5abe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Input\Keyboard">
+      <UniqueIdentifier>{8f87e338-85cc-4446-90b0-5e283f6dae23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\Event\EngineEvents">
+      <UniqueIdentifier>{85a284e8-183a-4b99-a5de-416c82b6dbb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\MainLoop">
+      <UniqueIdentifier>{c271b49d-fb31-4912-af59-c65330a86ef9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\MainLoop">
+      <UniqueIdentifier>{1e7b4ed3-0e62-4dd6-95b3-2361a81380cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\System">
+      <UniqueIdentifier>{297fede3-ad67-4f78-9d0f-4808f4d532d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\Common">
+      <UniqueIdentifier>{a3692622-87ec-4283-897a-cf47ae0cf110}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Common">
+      <UniqueIdentifier>{2b849851-d997-4b2f-aedc-8934847ef845}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\Entity\Components">
+      <UniqueIdentifier>{f03da713-b037-43df-9881-b6edb5a5a1c3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\KEngine\src\Multitask\Task.cpp">
+      <Filter>Source Files\Engine\Multitask</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\KEngine\src\Multitask\TaskManager.cpp">
+      <Filter>Source Files\Engine\Multitask</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\KEngine\src\Entity\Entity.cpp">
+      <Filter>Source Files\Engine\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\KEngine\src\Entity\EntityID.cpp">
+      <Filter>Source Files\Engine\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\KEngine\src\Entity\IEntityComponent.cpp">
+      <Filter>Source Files\Engine\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\KEngine\src\Dev\dbg.cpp">
+      <Filter>Source Files\Engine\Dev</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\KEngine\src\App\KEApp.cpp">
+      <Filter>Source Files\Engine\App</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\KEngine\src\App\KELogic.cpp">
+      <Filter>Source Files\Engine\App</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\KEngine\src\Event\IEvent.cpp">
+      <Filter>Source Files\Engine\Event</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\KEngine\src\Event\EventManager.cpp">
+      <Filter>Source Files\Engine\Event</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\KEngine\src\Event\StdFuncEventManager.cpp">
+      <Filter>Source Files\Engine\Event</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\KEngine\src\Event\DonFDEventManager.cpp">
+      <Filter>Source Files\Engine\Event</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\KEngine\src\Utility\Transform2D.cpp">
+      <Filter>Source Files\Engine\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\KEngine\src\Graphics\Renderer\SFMLRenderer.cpp">
+      <Filter>Source Files\Engine\Graphics\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\KEngine\src\App\IView.cpp">
+      <Filter>Source Files\Engine\App</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\KEngine\src\App\HumanView.cpp">
+      <Filter>Source Files\Engine\App</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\KEngine\src\App\App.cpp">
+      <Filter>Source Files\Engine\App</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\Input\Keyboard\SFMLKeyboard.cpp">
+      <Filter>Source Files\Engine\Input\Keyboard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\Input\Keyboard.cpp">
+      <Filter>Source Files\Engine\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\MainLoop\SFMLSysEventLoop.cpp">
+      <Filter>Source Files\Engine\MainLoop</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\MainLoop\MainLoop.cpp">
+      <Filter>Source Files\Engine\MainLoop</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\Event\IEventHandler.cpp">
+      <Filter>Source Files\Engine\Event</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\Common\Length.cpp">
+      <Filter>Source Files\Engine\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\Common\Time.cpp">
+      <Filter>Source Files\Engine\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\Common\Angle.cpp">
+      <Filter>Source Files\Engine\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\Common\Geometry.cpp">
+      <Filter>Source Files\Engine\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\Entity\EntityFactory.cpp">
+      <Filter>Source Files\Engine\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\Entity\EntityManager.cpp">
+      <Filter>Source Files\Engine\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\Entity\DefaultEntityManager.cpp">
+      <Filter>Source Files\Engine\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\src\Common\JSONReader.cpp">
+      <Filter>Source Files\Engine\Common</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\KEngine\include\Utility\Transform2D.hpp">
+      <Filter>Header Files\Engine\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\KEngine\include\Utility\Transform3D.hpp">
+      <Filter>Header Files\Engine\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\KEngine\include\engine_common.hpp">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\KEngine\include\Utility\Utility.hpp">
+      <Filter>Header Files\Engine\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\KEngine\include\Multitask\Task.hpp">
+      <Filter>Header Files\Engine\Multitask</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\KEngine\include\Multitask\TaskManager.hpp">
+      <Filter>Header Files\Engine\Multitask</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\KEngine\include\Entity\Entity.hpp">
+      <Filter>Header Files\Engine\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\KEngine\include\Entity\EntityID.hpp">
+      <Filter>Header Files\Engine\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\KEngine\include\Entity\IEntityComponent.hpp">
+      <Filter>Header Files\Engine\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\KEngine\include\Entity\Types.hpp">
+      <Filter>Header Files\Engine\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\KEngine\include\Entity\EntityComponentID.hpp">
+      <Filter>Header Files\Engine\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\KEngine\include\Utility\NonCopyable.hpp">
+      <Filter>Header Files\Engine\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\KEngine\include\Dev\dbg.hpp">
+      <Filter>Header Files\Engine\Dev</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\KEngine\include\App\KEApp.hpp">
+      <Filter>Header Files\Engine\App</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\KEngine\include\App\KELogic.hpp">
+      <Filter>Header Files\Engine\App</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\KEngine\include\Event\IEvent.hpp">
+      <Filter>Header Files\Engine\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\KEngine\include\Event\Types.hpp">
+      <Filter>Header Files\Engine\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\KEngine\include\Event\EventManager.hpp">
+      <Filter>Header Files\Engine\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\KEngine\include\Multitask\Types.hpp">
+      <Filter>Header Files\Engine\Multitask</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\KEngine\include\Event\IEventManager.hpp">
+      <Filter>Header Files\Engine\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\KEngine\include\Utility\StaticClass.hpp">
+      <Filter>Header Files\Engine\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\KEngine\include\Event\StdFuncEventManager.hpp">
+      <Filter>Header Files\Engine\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\KEngine\include\Event\EventQueue.hpp">
+      <Filter>Header Files\Engine\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\KEngine\include\Utility\StopWatch.hpp">
+      <Filter>Header Files\Engine\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\KEngine\include\Utility\IStopWatch.hpp">
+      <Filter>Header Files\Engine\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\KEngine\include\Utility\SFML2StopWatch.hpp">
+      <Filter>Header Files\Engine\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\KEngine\include\Event\DonFDEventManager.hpp">
+      <Filter>Header Files\Engine\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\KEngine\include\Graphics\Renderer\IRenderer.hpp">
+      <Filter>Header Files\Engine\Graphics\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\KEngine\include\Graphics\Renderer\Types.hpp">
+      <Filter>Header Files\Engine\Graphics\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\KEngine\include\Graphics\Renderer\SFMLRenderer.hpp">
+      <Filter>Header Files\Engine\Graphics\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\KEngine\include\Graphics\Renderer\RenderContext.hpp">
+      <Filter>Header Files\Engine\Graphics\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\KEngine\include\App\IView.hpp">
+      <Filter>Header Files\Engine\App</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\KEngine\include\App\Types.hpp">
+      <Filter>Header Files\Engine\App</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\KEngine\include\Physics\Types.hpp">
+      <Filter>Header Files\Engine\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\KEngine\include\App\ILogic.hpp">
+      <Filter>Header Files\Engine\App</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\KEngine\include\Input\Types.hpp">
+      <Filter>Header Files\Engine\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\KEngine\include\Input\Keys.hpp">
+      <Filter>Header Files\Engine\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\KEngine\include\Input\Interfaces.hpp">
+      <Filter>Header Files\Engine\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\KEngine\include\App\HumanView.hpp">
+      <Filter>Header Files\Engine\App</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\KEngine\include\App\App.hpp">
+      <Filter>Header Files\Engine\App</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\KEngine\include\App\NetworkView.hpp">
+      <Filter>Header Files\Engine\App</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\Input\Keyboard.hpp">
+      <Filter>Header Files\Engine\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\Input\Keyboard\SFMLKeyboard.hpp">
+      <Filter>Header Files\Engine\Input\Keyboard</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\Event\EngineEvents\SFMLEvent_Event.hpp">
+      <Filter>Header Files\Engine\Event\EngineEvents</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\Event\EngineEvents\Text_Event.hpp">
+      <Filter>Header Files\Engine\Event\EngineEvents</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\MainLoop\SFMLSysEventLoop.hpp">
+      <Filter>Header Files\Engine\MainLoop</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\MainLoop\MainLoop.hpp">
+      <Filter>Header Files\Engine\MainLoop</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\Event\EngineEvents\SFMLWindowRequest_Event.hpp">
+      <Filter>Header Files\Engine\Event\EngineEvents</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\Event\EngineEvents\SFMLWindow_Event.hpp">
+      <Filter>Header Files\Engine\Event\EngineEvents</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\System\ISystem.hpp">
+      <Filter>Header Files\Engine\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\Event\IEventHandler.hpp">
+      <Filter>Header Files\Engine\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\Event\EngineEvents\ExitRequested_Event.hpp">
+      <Filter>Header Files\Engine\Event\EngineEvents</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\Common\Length.hpp">
+      <Filter>Header Files\Engine\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\Common\Time.hpp">
+      <Filter>Header Files\Engine\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\Common\Angle.hpp">
+      <Filter>Header Files\Engine\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\Common\Geometry.hpp">
+      <Filter>Header Files\Engine\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\Common\Queues.hpp">
+      <Filter>Header Files\Engine\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\Event\EngineEvents\FrameTimeReport_Event.hpp">
+      <Filter>Header Files\Engine\Event\EngineEvents</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\Entity\EntityManager.hpp">
+      <Filter>Header Files\Engine\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\Entity\EntityFactory.hpp">
+      <Filter>Header Files\Engine\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\Entity\IEntityManager.hpp">
+      <Filter>Header Files\Engine\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\Entity\DefaultEntityManager.hpp">
+      <Filter>Header Files\Engine\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\Entity\EntityComponentFactory.hpp">
+      <Filter>Header Files\Engine\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\Common\IJSONReader.hpp">
+      <Filter>Header Files\Engine\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\Common\JSONReader.hpp">
+      <Filter>Header Files\Engine\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\Event\EngineEvents\EntityComponentRequested_Event.hpp">
+      <Filter>Header Files\Engine\Event\EngineEvents</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\Entity\Components\TestEComponent1.hpp">
+      <Filter>Header Files\Engine\Entity\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\Entity\Components\TestEComponent2.hpp">
+      <Filter>Header Files\Engine\Entity\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\std_common.hpp">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\include\Graphics\Types.hpp">
+      <Filter>Header Files\Engine\Graphics</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\..\KEngine\include\Event\EventManager.inl">
+      <Filter>Header Files\Engine\Event</Filter>
+    </None>
+    <None Include="..\..\..\..\include\Common\Length.inl">
+      <Filter>Header Files\Engine\Common</Filter>
+    </None>
+    <None Include="..\..\..\..\include\Common\Time.inl">
+      <Filter>Header Files\Engine\Common</Filter>
+    </None>
+    <None Include="..\..\..\..\include\Common\Angle.inl">
+      <Filter>Header Files\Engine\Common</Filter>
+    </None>
+    <None Include="..\..\..\..\include\Common\Queues.inl">
+      <Filter>Header Files\Engine\Common</Filter>
+    </None>
+  </ItemGroup>
+</Project>
