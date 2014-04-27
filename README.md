@@ -26,7 +26,7 @@ To see it in use, check out my ProjectK repository.
 ----------------------------
 | Building for development |
 ----------------------------
-The library is built as a library. A VS12 solution is provided.
+The engine is built as a library. A VS12 solution is provided.
 
 The engine has the follow dependencies:
  - SFML 2.x
