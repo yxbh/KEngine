@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+VisualStudioVersion = 12.0.30723.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "KEngine", "KEngine\KEngine.vcxproj", "{8753A9D2-41E0-447B-A819-F0B91DFB73E7}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "KEngine", "KEngine\KEngine.vcxproj", "{3FA686B1-BB74-4BB9-A308-2AEAD43D0980}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,18 +15,18 @@ Global
 		Release|Win64 = Release|Win64
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{8753A9D2-41E0-447B-A819-F0B91DFB73E7}.Debug|Win32.ActiveCfg = Debug|Win32
-		{8753A9D2-41E0-447B-A819-F0B91DFB73E7}.Debug|Win32.Build.0 = Debug|Win32
-		{8753A9D2-41E0-447B-A819-F0B91DFB73E7}.Debug|Win64.ActiveCfg = Debug|x64
-		{8753A9D2-41E0-447B-A819-F0B91DFB73E7}.Debug|Win64.Build.0 = Debug|x64
-		{8753A9D2-41E0-447B-A819-F0B91DFB73E7}.Profile|Win32.ActiveCfg = Profile|Win32
-		{8753A9D2-41E0-447B-A819-F0B91DFB73E7}.Profile|Win32.Build.0 = Profile|Win32
-		{8753A9D2-41E0-447B-A819-F0B91DFB73E7}.Profile|Win64.ActiveCfg = Profile|x64
-		{8753A9D2-41E0-447B-A819-F0B91DFB73E7}.Profile|Win64.Build.0 = Profile|x64
-		{8753A9D2-41E0-447B-A819-F0B91DFB73E7}.Release|Win32.ActiveCfg = Release|Win32
-		{8753A9D2-41E0-447B-A819-F0B91DFB73E7}.Release|Win32.Build.0 = Release|Win32
-		{8753A9D2-41E0-447B-A819-F0B91DFB73E7}.Release|Win64.ActiveCfg = Release|x64
-		{8753A9D2-41E0-447B-A819-F0B91DFB73E7}.Release|Win64.Build.0 = Release|x64
+		{3FA686B1-BB74-4BB9-A308-2AEAD43D0980}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3FA686B1-BB74-4BB9-A308-2AEAD43D0980}.Debug|Win32.Build.0 = Debug|Win32
+		{3FA686B1-BB74-4BB9-A308-2AEAD43D0980}.Debug|Win64.ActiveCfg = Debug|x64
+		{3FA686B1-BB74-4BB9-A308-2AEAD43D0980}.Debug|Win64.Build.0 = Debug|x64
+		{3FA686B1-BB74-4BB9-A308-2AEAD43D0980}.Profile|Win32.ActiveCfg = Profile|Win32
+		{3FA686B1-BB74-4BB9-A308-2AEAD43D0980}.Profile|Win32.Build.0 = Profile|Win32
+		{3FA686B1-BB74-4BB9-A308-2AEAD43D0980}.Profile|Win64.ActiveCfg = Profile|x64
+		{3FA686B1-BB74-4BB9-A308-2AEAD43D0980}.Profile|Win64.Build.0 = Profile|x64
+		{3FA686B1-BB74-4BB9-A308-2AEAD43D0980}.Release|Win32.ActiveCfg = Release|Win32
+		{3FA686B1-BB74-4BB9-A308-2AEAD43D0980}.Release|Win32.Build.0 = Release|Win32
+		{3FA686B1-BB74-4BB9-A308-2AEAD43D0980}.Release|Win64.ActiveCfg = Release|x64
+		{3FA686B1-BB74-4BB9-A308-2AEAD43D0980}.Release|Win64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

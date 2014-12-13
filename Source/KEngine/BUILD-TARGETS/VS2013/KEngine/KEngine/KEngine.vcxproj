@@ -130,7 +130,7 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
       <ObjectFileName>$(IntDir)%(RelativeDir)</ObjectFileName>
-      <AdditionalIncludeDirectories>$(SolutionDir)..\..\..\..\Lib\SFML_VS12x86_custom_20131211\include;$(SolutionDir)..\..\..\..\Lib\glm-0.9.4.6\glm;$(SolutionDir)..\..\..\..\Lib\FastDelegate\unofficial-v2;$(SolutionDir)..\..\..\..\Lib\libjson;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\..\..\..\Lib\header\SFML\include;$(SolutionDir)..\..\..\..\Lib\header\glm\0.9.5.3;$(SolutionDir)..\..\..\..\Lib\libjson;$(SolutionDir)..\..\..\..\Lib\header\delegates;..\..\..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
       <MinimalRebuild>false</MinimalRebuild>
     </ClCompile>
@@ -146,7 +146,7 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
       <ObjectFileName>$(IntDir)%(RelativeDir)</ObjectFileName>
-      <AdditionalIncludeDirectories>$(SolutionDir)..\..\..\..\Lib\SFML_VS12x64_custom_20131211\include;$(SolutionDir)..\..\..\..\Lib\glm-0.9.4.6\glm;$(SolutionDir)..\..\..\..\Lib\FastDelegate\unofficial-v2;$(SolutionDir)..\..\..\..\Lib\libjson;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\..\..\..\Lib\header\SFML\include;$(SolutionDir)..\..\..\..\Lib\header\glm\0.9.5.3;$(SolutionDir)..\..\..\..\Lib\libjson;$(SolutionDir)..\..\..\..\Lib\header\delegates;..\..\..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
       <MinimalRebuild>false</MinimalRebuild>
       <PreprocessorDefinitions>_MBCS;JSON_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -165,7 +165,7 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
       <ObjectFileName>$(IntDir)%(RelativeDir)</ObjectFileName>
-      <AdditionalIncludeDirectories>$(SolutionDir)..\..\..\..\Lib\SFML_VS12x86_custom_20131211\include;$(SolutionDir)..\..\..\..\Lib\glm-0.9.4.6\glm;$(SolutionDir)..\..\..\..\Lib\FastDelegate\unofficial-v2;$(SolutionDir)..\..\..\..\Lib\libjson;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\..\..\..\Lib\header\SFML\include;$(SolutionDir)..\..\..\..\Lib\header\glm\0.9.5.3;$(SolutionDir)..\..\..\..\Lib\libjson;$(SolutionDir)..\..\..\..\Lib\header\delegates;..\..\..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
       <PreprocessorDefinitions>_MBCS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
@@ -185,7 +185,7 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
       <ObjectFileName>$(IntDir)%(RelativeDir)</ObjectFileName>
-      <AdditionalIncludeDirectories>$(SolutionDir)..\..\..\..\Lib\SFML_VS12x64_custom_20131211\include;$(SolutionDir)..\..\..\..\Lib\glm-0.9.4.6\glm;$(SolutionDir)..\..\..\..\Lib\FastDelegate\unofficial-v2;$(SolutionDir)..\..\..\..\Lib\libjson;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\..\..\..\Lib\header\SFML\include;$(SolutionDir)..\..\..\..\Lib\header\glm\0.9.5.3;$(SolutionDir)..\..\..\..\Lib\libjson;$(SolutionDir)..\..\..\..\Lib\header\delegates;..\..\..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
       <PreprocessorDefinitions>KE_DEBUG; NDEBUG; _MBCS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
@@ -207,7 +207,7 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
       <ObjectFileName>$(IntDir)%(RelativeDir)</ObjectFileName>
-      <AdditionalIncludeDirectories>$(SolutionDir)..\..\..\..\Lib\SFML_VS12x86_custom_20131211\include;$(SolutionDir)..\..\..\..\Lib\glm-0.9.4.6\glm;$(SolutionDir)..\..\..\..\Lib\FastDelegate\unofficial-v2;$(SolutionDir)..\..\..\..\Lib\libjson;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\..\..\..\Lib\header\SFML\include;$(SolutionDir)..\..\..\..\Lib\header\glm\0.9.5.3;$(SolutionDir)..\..\..\..\Lib\libjson;$(SolutionDir)..\..\..\..\Lib\header\delegates;..\..\..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
       <PreprocessorDefinitions>_MBCS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
@@ -228,7 +228,7 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
       <ObjectFileName>$(IntDir)%(RelativeDir)</ObjectFileName>
-      <AdditionalIncludeDirectories>$(SolutionDir)..\..\..\..\Lib\SFML_VS12x64_custom_20131211\include;$(SolutionDir)..\..\..\..\Lib\glm-0.9.4.6\glm;$(SolutionDir)..\..\..\..\Lib\FastDelegate\unofficial-v2;$(SolutionDir)..\..\..\..\Lib\libjson;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\..\..\..\Lib\header\SFML\include;$(SolutionDir)..\..\..\..\Lib\header\glm\0.9.5.3;$(SolutionDir)..\..\..\..\Lib\libjson;$(SolutionDir)..\..\..\..\Lib\header\delegates;..\..\..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
       <PreprocessorDefinitions>KE_DEBUG;NDEBUG;_MBCS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
@@ -242,115 +242,123 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\..\KEngine\src\App\App.cpp" />
-    <ClCompile Include="..\..\..\..\..\KEngine\src\App\HumanView.cpp" />
-    <ClCompile Include="..\..\..\..\..\KEngine\src\App\IView.cpp" />
-    <ClCompile Include="..\..\..\..\..\KEngine\src\App\KEApp.cpp" />
-    <ClCompile Include="..\..\..\..\..\KEngine\src\App\KELogic.cpp" />
-    <ClCompile Include="..\..\..\..\..\KEngine\src\Dev\dbg.cpp" />
-    <ClCompile Include="..\..\..\..\..\KEngine\src\Entity\Entity.cpp" />
-    <ClCompile Include="..\..\..\..\..\KEngine\src\Entity\EntityID.cpp" />
-    <ClCompile Include="..\..\..\..\..\KEngine\src\Entity\IEntityComponent.cpp" />
-    <ClCompile Include="..\..\..\..\..\KEngine\src\Event\DonFDEventManager.cpp" />
-    <ClCompile Include="..\..\..\..\..\KEngine\src\Event\EventManager.cpp" />
-    <ClCompile Include="..\..\..\..\..\KEngine\src\Event\IEvent.cpp" />
-    <ClCompile Include="..\..\..\..\..\KEngine\src\Event\StdFuncEventManager.cpp" />
-    <ClCompile Include="..\..\..\..\..\KEngine\src\Graphics\Renderer\SFMLRenderer.cpp" />
-    <ClCompile Include="..\..\..\..\..\KEngine\src\Multitask\Task.cpp" />
-    <ClCompile Include="..\..\..\..\..\KEngine\src\Multitask\TaskManager.cpp" />
-    <ClCompile Include="..\..\..\..\..\KEngine\src\Utility\Transform2D.cpp" />
-    <ClCompile Include="..\..\..\..\src\Common\Angle.cpp" />
-    <ClCompile Include="..\..\..\..\src\Common\Geometry.cpp" />
-    <ClCompile Include="..\..\..\..\src\Common\JSONReader.cpp" />
-    <ClCompile Include="..\..\..\..\src\Common\Length.cpp" />
-    <ClCompile Include="..\..\..\..\src\Common\Time.cpp" />
-    <ClCompile Include="..\..\..\..\src\Entity\DefaultEntityManager.cpp" />
-    <ClCompile Include="..\..\..\..\src\Entity\EntityFactory.cpp" />
-    <ClCompile Include="..\..\..\..\src\Entity\EntityManager.cpp" />
-    <ClCompile Include="..\..\..\..\src\Event\IEventHandler.cpp" />
-    <ClCompile Include="..\..\..\..\src\Input\Keyboard.cpp" />
-    <ClCompile Include="..\..\..\..\src\Input\Keyboard\SFMLKeyboard.cpp" />
-    <ClCompile Include="..\..\..\..\src\MainLoop\MainLoop.cpp" />
-    <ClCompile Include="..\..\..\..\src\MainLoop\SFMLSysEventLoop.cpp" />
+    <ClInclude Include="..\..\..\..\include\KEngine\App\AppManager.hpp" />
+    <ClInclude Include="..\..\..\..\include\KEngine\App\HumanView.hpp" />
+    <ClInclude Include="..\..\..\..\include\KEngine\App\ILogic.hpp" />
+    <ClInclude Include="..\..\..\..\include\KEngine\App\IView.hpp" />
+    <ClInclude Include="..\..\..\..\include\KEngine\App\App.hpp" />
+    <ClInclude Include="..\..\..\..\include\KEngine\App\Logic.hpp" />
+    <ClInclude Include="..\..\..\..\include\KEngine\App\NetworkView.hpp" />
+    <ClInclude Include="..\..\..\..\include\KEngine\App\Types.hpp" />
+    <ClInclude Include="..\..\..\..\include\KEngine\Common\Angle.hpp" />
+    <ClInclude Include="..\..\..\..\include\KEngine\Common\Geometry.hpp" />
+    <ClInclude Include="..\..\..\..\include\KEngine\Common\IJSONReader.hpp" />
+    <ClInclude Include="..\..\..\..\include\KEngine\Common\JSONReader.hpp" />
+    <ClInclude Include="..\..\..\..\include\KEngine\Common\Length.hpp" />
+    <ClInclude Include="..\..\..\..\include\KEngine\Common\Queues.hpp" />
+    <ClInclude Include="..\..\..\..\include\KEngine\Common\Time.hpp" />
+    <ClInclude Include="..\..\..\..\include\KEngine\Dev\dbg.hpp" />
+    <ClInclude Include="..\..\..\..\include\KEngine\engine_common.hpp" />
+    <ClInclude Include="..\..\..\..\include\KEngine\Entity\Components\TestEComponent1.hpp" />
+    <ClInclude Include="..\..\..\..\include\KEngine\Entity\Components\TestEComponent2.hpp" />
+    <ClInclude Include="..\..\..\..\include\KEngine\Entity\DefaultEntityManager.hpp" />
+    <ClInclude Include="..\..\..\..\include\KEngine\Entity\Entity.hpp" />
+    <ClInclude Include="..\..\..\..\include\KEngine\Entity\EntityComponentFactory.hpp" />
+    <ClInclude Include="..\..\..\..\include\KEngine\Entity\EntityComponentID.hpp" />
+    <ClInclude Include="..\..\..\..\include\KEngine\Entity\EntityFactory.hpp" />
+    <ClInclude Include="..\..\..\..\include\KEngine\Entity\EntityID.hpp" />
+    <ClInclude Include="..\..\..\..\include\KEngine\Entity\EntityManager.hpp" />
+    <ClInclude Include="..\..\..\..\include\KEngine\Entity\EntityRenderComponent.hpp" />
+    <ClInclude Include="..\..\..\..\include\KEngine\Entity\IEntityComponent.hpp" />
+    <ClInclude Include="..\..\..\..\include\KEngine\Entity\IEntityManager.hpp" />
+    <ClInclude Include="..\..\..\..\include\KEngine\Entity\Types.hpp" />
+    <ClInclude Include="..\..\..\..\include\KEngine\Events\EntityComponentRequested_Event.hpp" />
+    <ClInclude Include="..\..\..\..\include\KEngine\Events\ExitRequested_Event.hpp" />
+    <ClInclude Include="..\..\..\..\include\KEngine\Events\FrameTimeReport_Event.hpp" />
+    <ClInclude Include="..\..\..\..\include\KEngine\Events\SFMLEvent_Event.hpp" />
+    <ClInclude Include="..\..\..\..\include\KEngine\Events\SFMLWindowRequest_Event.hpp" />
+    <ClInclude Include="..\..\..\..\include\KEngine\Events\SFMLWindow_Event.hpp" />
+    <ClInclude Include="..\..\..\..\include\KEngine\Events\Text_Event.hpp" />
+    <ClInclude Include="..\..\..\..\include\KEngine\Event\EventManager.hpp" />
+    <ClInclude Include="..\..\..\..\include\KEngine\Event\EventQueue.hpp" />
+    <ClInclude Include="..\..\..\..\include\KEngine\Event\IEvent.hpp" />
+    <ClInclude Include="..\..\..\..\include\KEngine\Event\IEventHandler.hpp" />
+    <ClInclude Include="..\..\..\..\include\KEngine\Event\IEventManager.hpp" />
+    <ClInclude Include="..\..\..\..\include\KEngine\Event\Types.hpp" />
+    <ClInclude Include="..\..\..\..\include\KEngine\Graphics\2D\Default2DScene.hpp" />
+    <ClInclude Include="..\..\..\..\include\KEngine\Graphics\IScene.hpp" />
+    <ClInclude Include="..\..\..\..\include\KEngine\Graphics\IWindow.hpp" />
+    <ClInclude Include="..\..\..\..\include\KEngine\Graphics\Renderer\IRender.hpp" />
+    <ClInclude Include="..\..\..\..\include\KEngine\Graphics\Renderer\RenderContext.hpp" />
+    <ClInclude Include="..\..\..\..\include\KEngine\Graphics\Renderer\SfmlRender.hpp" />
+    <ClInclude Include="..\..\..\..\include\KEngine\Graphics\Renderer\Types.hpp" />
+    <ClInclude Include="..\..\..\..\include\KEngine\Graphics\RenderSystem.hpp" />
+    <ClInclude Include="..\..\..\..\include\KEngine\Graphics\SceneNode.hpp" />
+    <ClInclude Include="..\..\..\..\include\KEngine\Graphics\SfmlWindow.hpp" />
+    <ClInclude Include="..\..\..\..\include\KEngine\Graphics\Types.hpp" />
+    <ClInclude Include="..\..\..\..\include\KEngine\Input\Interfaces.hpp" />
+    <ClInclude Include="..\..\..\..\include\KEngine\Input\Keyboard.hpp" />
+    <ClInclude Include="..\..\..\..\include\KEngine\Input\Keyboard\SFMLKeyboard.hpp" />
+    <ClInclude Include="..\..\..\..\include\KEngine\Input\Keys.hpp" />
+    <ClInclude Include="..\..\..\..\include\KEngine\Input\Types.hpp" />
+    <ClInclude Include="..\..\..\..\include\KEngine\macro_common.hpp" />
+    <ClInclude Include="..\..\..\..\include\KEngine\MainLoop\MainLoop.hpp" />
+    <ClInclude Include="..\..\..\..\include\KEngine\MainLoop\SFMLSysEventLoop.hpp" />
+    <ClInclude Include="..\..\..\..\include\KEngine\Multitask\Task.hpp" />
+    <ClInclude Include="..\..\..\..\include\KEngine\Multitask\TaskManager.hpp" />
+    <ClInclude Include="..\..\..\..\include\KEngine\Multitask\Types.hpp" />
+    <ClInclude Include="..\..\..\..\include\KEngine\Physics\Types.hpp" />
+    <ClInclude Include="..\..\..\..\include\KEngine\std_common.hpp" />
+    <ClInclude Include="..\..\..\..\include\KEngine\System\ISystem.hpp" />
+    <ClInclude Include="..\..\..\..\include\KEngine\Utility\IStopWatch.hpp" />
+    <ClInclude Include="..\..\..\..\include\KEngine\Utility\NonCopyable.hpp" />
+    <ClInclude Include="..\..\..\..\include\KEngine\Utility\SFML2StopWatch.hpp" />
+    <ClInclude Include="..\..\..\..\include\KEngine\Utility\Singleton.hpp" />
+    <ClInclude Include="..\..\..\..\include\KEngine\Utility\StaticClass.hpp" />
+    <ClInclude Include="..\..\..\..\include\KEngine\Utility\StopWatch.hpp" />
+    <ClInclude Include="..\..\..\..\include\KEngine\Utility\Transform2D.hpp" />
+    <ClInclude Include="..\..\..\..\include\KEngine\Utility\Transform3D.hpp" />
+    <ClInclude Include="..\..\..\..\include\KEngine\Utility\Utility.hpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\..\KEngine\include\App\App.hpp" />
-    <ClInclude Include="..\..\..\..\..\KEngine\include\App\HumanView.hpp" />
-    <ClInclude Include="..\..\..\..\..\KEngine\include\App\ILogic.hpp" />
-    <ClInclude Include="..\..\..\..\..\KEngine\include\App\IView.hpp" />
-    <ClInclude Include="..\..\..\..\..\KEngine\include\App\KEApp.hpp" />
-    <ClInclude Include="..\..\..\..\..\KEngine\include\App\KELogic.hpp" />
-    <ClInclude Include="..\..\..\..\..\KEngine\include\App\NetworkView.hpp" />
-    <ClInclude Include="..\..\..\..\..\KEngine\include\App\Types.hpp" />
-    <ClInclude Include="..\..\..\..\..\KEngine\include\Dev\dbg.hpp" />
-    <ClInclude Include="..\..\..\..\..\KEngine\include\engine_common.hpp" />
-    <ClInclude Include="..\..\..\..\..\KEngine\include\Entity\Entity.hpp" />
-    <ClInclude Include="..\..\..\..\..\KEngine\include\Entity\EntityComponentID.hpp" />
-    <ClInclude Include="..\..\..\..\..\KEngine\include\Entity\EntityID.hpp" />
-    <ClInclude Include="..\..\..\..\..\KEngine\include\Entity\Types.hpp" />
-    <ClInclude Include="..\..\..\..\..\KEngine\include\Entity\IEntityComponent.hpp" />
-    <ClInclude Include="..\..\..\..\..\KEngine\include\Event\DonFDEventManager.hpp" />
-    <ClInclude Include="..\..\..\..\..\KEngine\include\Event\EventManager.hpp" />
-    <ClInclude Include="..\..\..\..\..\KEngine\include\Event\EventQueue.hpp" />
-    <ClInclude Include="..\..\..\..\..\KEngine\include\Event\IEvent.hpp" />
-    <ClInclude Include="..\..\..\..\..\KEngine\include\Event\IEventManager.hpp" />
-    <ClInclude Include="..\..\..\..\..\KEngine\include\Event\StdFuncEventManager.hpp" />
-    <ClInclude Include="..\..\..\..\..\KEngine\include\Event\Types.hpp" />
-    <ClInclude Include="..\..\..\..\..\KEngine\include\Graphics\Renderer\IRenderer.hpp" />
-    <ClInclude Include="..\..\..\..\..\KEngine\include\Graphics\Renderer\RenderContext.hpp" />
-    <ClInclude Include="..\..\..\..\..\KEngine\include\Graphics\Renderer\SFMLRenderer.hpp" />
-    <ClInclude Include="..\..\..\..\..\KEngine\include\Graphics\Renderer\Types.hpp" />
-    <ClInclude Include="..\..\..\..\..\KEngine\include\Input\Interfaces.hpp" />
-    <ClInclude Include="..\..\..\..\..\KEngine\include\Input\Keys.hpp" />
-    <ClInclude Include="..\..\..\..\..\KEngine\include\Input\Types.hpp" />
-    <ClInclude Include="..\..\..\..\..\KEngine\include\Multitask\Task.hpp" />
-    <ClInclude Include="..\..\..\..\..\KEngine\include\Multitask\TaskManager.hpp" />
-    <ClInclude Include="..\..\..\..\..\KEngine\include\Multitask\Types.hpp" />
-    <ClInclude Include="..\..\..\..\..\KEngine\include\Physics\Types.hpp" />
-    <ClInclude Include="..\..\..\..\..\KEngine\include\Utility\IStopWatch.hpp" />
-    <ClInclude Include="..\..\..\..\..\KEngine\include\Utility\NonCopyable.hpp" />
-    <ClInclude Include="..\..\..\..\..\KEngine\include\Utility\SFML2StopWatch.hpp" />
-    <ClInclude Include="..\..\..\..\..\KEngine\include\Utility\StaticClass.hpp" />
-    <ClInclude Include="..\..\..\..\..\KEngine\include\Utility\StopWatch.hpp" />
-    <ClInclude Include="..\..\..\..\..\KEngine\include\Utility\Transform2D.hpp" />
-    <ClInclude Include="..\..\..\..\..\KEngine\include\Utility\Transform3D.hpp" />
-    <ClInclude Include="..\..\..\..\..\KEngine\include\Utility\Utility.hpp" />
-    <ClInclude Include="..\..\..\..\include\Common\Angle.hpp" />
-    <ClInclude Include="..\..\..\..\include\Common\Geometry.hpp" />
-    <ClInclude Include="..\..\..\..\include\Common\IJSONReader.hpp" />
-    <ClInclude Include="..\..\..\..\include\Common\JSONReader.hpp" />
-    <ClInclude Include="..\..\..\..\include\Common\Length.hpp" />
-    <ClInclude Include="..\..\..\..\include\Common\Queues.hpp" />
-    <ClInclude Include="..\..\..\..\include\Common\Time.hpp" />
-    <ClInclude Include="..\..\..\..\include\Entity\Components\TestEComponent1.hpp" />
-    <ClInclude Include="..\..\..\..\include\Entity\Components\TestEComponent2.hpp" />
-    <ClInclude Include="..\..\..\..\include\Entity\DefaultEntityManager.hpp" />
-    <ClInclude Include="..\..\..\..\include\Entity\EntityComponentFactory.hpp" />
-    <ClInclude Include="..\..\..\..\include\Entity\EntityFactory.hpp" />
-    <ClInclude Include="..\..\..\..\include\Entity\EntityManager.hpp" />
-    <ClInclude Include="..\..\..\..\include\Entity\IEntityManager.hpp" />
-    <ClInclude Include="..\..\..\..\include\Event\EngineEvents\EntityComponentRequested_Event.hpp" />
-    <ClInclude Include="..\..\..\..\include\Event\EngineEvents\ExitRequested_Event.hpp" />
-    <ClInclude Include="..\..\..\..\include\Event\EngineEvents\FrameTimeReport_Event.hpp" />
-    <ClInclude Include="..\..\..\..\include\Event\EngineEvents\SFMLEvent_Event.hpp" />
-    <ClInclude Include="..\..\..\..\include\Event\EngineEvents\SFMLWindowRequest_Event.hpp" />
-    <ClInclude Include="..\..\..\..\include\Event\EngineEvents\SFMLWindow_Event.hpp" />
-    <ClInclude Include="..\..\..\..\include\Event\EngineEvents\Text_Event.hpp" />
-    <ClInclude Include="..\..\..\..\include\Event\IEventHandler.hpp" />
-    <ClInclude Include="..\..\..\..\include\Graphics\Types.hpp" />
-    <ClInclude Include="..\..\..\..\include\Input\Keyboard.hpp" />
-    <ClInclude Include="..\..\..\..\include\Input\Keyboard\SFMLKeyboard.hpp" />
-    <ClInclude Include="..\..\..\..\include\MainLoop\MainLoop.hpp" />
-    <ClInclude Include="..\..\..\..\include\MainLoop\SFMLSysEventLoop.hpp" />
-    <ClInclude Include="..\..\..\..\include\std_common.hpp" />
-    <ClInclude Include="..\..\..\..\include\System\ISystem.hpp" />
+    <None Include="..\..\..\..\include\KEngine\Common\Angle.inl" />
+    <None Include="..\..\..\..\include\KEngine\Common\Length.inl" />
+    <None Include="..\..\..\..\include\KEngine\Common\Queues.inl" />
+    <None Include="..\..\..\..\include\KEngine\Common\Time.inl" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\..\..\..\..\KEngine\include\Event\EventManager.inl" />
-    <None Include="..\..\..\..\include\Common\Angle.inl" />
-    <None Include="..\..\..\..\include\Common\Length.inl" />
-    <None Include="..\..\..\..\include\Common\Queues.inl" />
-    <None Include="..\..\..\..\include\Common\Time.inl" />
+    <ClCompile Include="..\..\..\..\src\KEngine\App\AppManager.cpp" />
+    <ClCompile Include="..\..\..\..\src\KEngine\App\HumanView.cpp" />
+    <ClCompile Include="..\..\..\..\src\KEngine\App\IView.cpp" />
+    <ClCompile Include="..\..\..\..\src\KEngine\App\App.cpp" />
+    <ClCompile Include="..\..\..\..\src\KEngine\App\Logic.cpp" />
+    <ClCompile Include="..\..\..\..\src\KEngine\Common\Angle.cpp" />
+    <ClCompile Include="..\..\..\..\src\KEngine\Common\Geometry.cpp" />
+    <ClCompile Include="..\..\..\..\src\KEngine\Common\JSONReader.cpp" />
+    <ClCompile Include="..\..\..\..\src\KEngine\Common\Length.cpp" />
+    <ClCompile Include="..\..\..\..\src\KEngine\Common\Time.cpp" />
+    <ClCompile Include="..\..\..\..\src\KEngine\Dev\dbg.cpp" />
+    <ClCompile Include="..\..\..\..\src\KEngine\Entity\DefaultEntityManager.cpp" />
+    <ClCompile Include="..\..\..\..\src\KEngine\Entity\Entity.cpp" />
+    <ClCompile Include="..\..\..\..\src\KEngine\Entity\EntityFactory.cpp" />
+    <ClCompile Include="..\..\..\..\src\KEngine\Entity\EntityID.cpp" />
+    <ClCompile Include="..\..\..\..\src\KEngine\Entity\EntityManager.cpp" />
+    <ClCompile Include="..\..\..\..\src\KEngine\Entity\IEntityComponent.cpp" />
+    <ClCompile Include="..\..\..\..\src\KEngine\Event\EventManager.cpp" />
+    <ClCompile Include="..\..\..\..\src\KEngine\Event\IEvent.cpp" />
+    <ClCompile Include="..\..\..\..\src\KEngine\Event\IEventHandler.cpp" />
+    <ClCompile Include="..\..\..\..\src\KEngine\Graphics\2D\Default2DScene.cpp" />
+    <ClCompile Include="..\..\..\..\src\KEngine\Graphics\Renderer\SfmlRender.cpp" />
+    <ClCompile Include="..\..\..\..\src\KEngine\Graphics\RenderSystem.cpp" />
+    <ClCompile Include="..\..\..\..\src\KEngine\Graphics\SceneNode.cpp" />
+    <ClCompile Include="..\..\..\..\src\KEngine\Graphics\SfmlWindow.cpp" />
+    <ClCompile Include="..\..\..\..\src\KEngine\Input\Keyboard.cpp" />
+    <ClCompile Include="..\..\..\..\src\KEngine\Input\Keyboard\SFMLKeyboard.cpp" />
+    <ClCompile Include="..\..\..\..\src\KEngine\MainLoop\MainLoop.cpp" />
+    <ClCompile Include="..\..\..\..\src\KEngine\MainLoop\SFMLSysEventLoop.cpp" />
+    <ClCompile Include="..\..\..\..\src\KEngine\Multitask\Task.cpp" />
+    <ClCompile Include="..\..\..\..\src\KEngine\Multitask\TaskManager.cpp" />
+    <ClCompile Include="..\..\..\..\src\KEngine\Utility\Transform2D.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
